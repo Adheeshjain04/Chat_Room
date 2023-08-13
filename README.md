@@ -8,3 +8,11 @@ This project demonstrates the creation of a real-time chat application using Pyt
 - Real-time messaging within chat rooms.
 - User-friendly interface for easy communication.
 - Multiple chat rooms for organized discussions.
+
+## Technologies Used
+
+- Python: Programming language used for backend development.
+- Flask: Web framework used to create the web application.
+- SocketIO: Library for real-time, bidirectional communication.
+- HTML/CSS: Markup and styling for the user interface.
+- JavaScript: Client-side scripting for real-time updates and interactions.
