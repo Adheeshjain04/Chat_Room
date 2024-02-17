@@ -19,14 +19,6 @@ Rooms are topic-based for focused discussions. The interface shows who is online
 - **Simple username** creation for getting started quickly
 - **Responsive design** for optimal viewing on any device
 
-## How It Works
-
-The Flask server manages chat rooms and users. When a new user connects, they are assigned a random room by default. The username is stored along with the active room.
-
-SocketIO events handle messaging between clients and the server. The 'message' event queues new messages which are then broadcast to others in the same room. A history of messages is also maintained. 
-
-The front-end uses JavaScript and jQuery to listen for SocketIO events and update the UI. Users can seamlessly send messages, change rooms, and view past discussions.
-
 ## Running the App
 
 The app requires Python 3 and the following packages:
@@ -37,18 +29,5 @@ The app requires Python 3 and the following packages:
 To start:
 
 1. Install requirements
-2. Run `python app.py`
+2. Run `python main.py`
 3. Navigate to `http://localhost:5000`
-
-The main app logic is contained in `app.py`. Static assets are served from the `static` folder.
-
-## Next Steps
-
-Future improvements for this project:
-
-- Private messaging between users
-- User authentication 
-- Custom room creation
-- Support for images, links, videos
-- Mobile optimizations
-- UI enhancements
