@@ -18,7 +18,7 @@ This project demonstrates the creation of a real-time chat application using Pyt
 - **HTML/CSS**: Markup and styling for the user interface
 - **JavaScript**: Client-side scripting for real-time updates and interactions
 
-  ## Running the App
+## Running the App
 
 The app requires Python 3 and the following packages:
 
